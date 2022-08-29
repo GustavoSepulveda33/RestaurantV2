@@ -1,0 +1,333 @@
+body {
+    margin: 0;
+    padding: 0;
+    /*box-sizing: border-box;*/
+   }
+  
+  
+  html, body {
+    height: 100%;
+    width: 100%;
+  /*   font-family: DejaVu Sans Mono, monospace */
+  }
+  
+  body {
+    font-family: DejaVu Sans Mono, monospace
+  }
+  
+  
+  
+  /* HERO HERO HERO     HERO HERO HERO    HERO HERO HERO   HERO HERO HERO     HERO HERO HERO */
+  
+  .headercontainer {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+   
+  }
+  
+  .heroimg {
+    position: static;
+    width: 100%;
+    filter: brightness(50%);
+  }
+  
+  .main-text, .main-text-sub {
+    position: absolute;
+    padding: 10px;
+    display: flex;
+    flex-direction: column-reverse;
+  
+  }
+  
+  .main-text {
+    font-size: 110px;
+    font-variant: small-caps;
+    color: yellow;
+    position: absolute;
+    left: 1100%;
+    top: -2500%;
+    white-space: nowrap;
+  /*   font-family: DejaVu Sans Mono, monospace */
+    
+  }
+  
+  .main-text-sub {
+    font-size: 30px;
+    font-variant: small-caps;
+    color: white;
+    position: absolute;
+    left: 2000%;
+    top: -1900%;
+    white-space: nowrap;
+    
+  }
+  
+  
+  
+  
+  
+  /* NAV NAV NAV NAV     NAV NAV NAV NAV      NAV NAV NAV NAV     NAV NAV NAV NAV */
+  
+  .nav-container {
+    position: relative;
+    
+  }
+  
+  .nav {
+    position: relative;
+    background-color: red;
+  }
+  
+  .ulnav {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    height: 80px;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+  
+    
+  }
+  
+  .navitem a {
+    text-decoration: none;
+    font-size: 30px;
+    color: yellow;
+  
+  }
+  
+  
+  
+  
+  
+  
+  /* TOP PICKS TOP PICKS TOP PICKS       TOP PICKS TOP PICKS TOP PICKS     TOP PICKS */
+  
+  .ourmenu-container {
+    position: relative;
+  /*   background-image: url("Baskethead.jpg"); */
+    background-color: indigo;
+  
+  }
+  
+  
+  .button {
+    position: relative;
+    background-color: indigo;
+    display: flex;
+    
+  }
+  
+  
+  .ordernow {
+    position: absolute;
+    display: flex;
+    align-content: flex-end;
+    left: 10px;
+  /*   font-size: 30px; */
+      font-size: 12px;
+    
+  }
+  
+  
+  .ourmenu-text {
+    background-color: indigo;
+    text-align: center;
+    font-size: 50px;
+    font-variant: small-caps;
+  /*   border: 5px solid; */
+  /*   border-bottom: none; */
+  /*   border-color: black; */
+    color: white;
+  }
+  
+  
+  .ourmenu-text {
+    padding: 20px;
+    background-color: red;
+  }
+  
+  
+  .imgcontainer {
+    position: relative;
+    height: 500px;
+    background-color: indigo;
+  /*   border: 5px solid;
+    border-top: none; */
+  /*   border-color: black; */
+  
+  }
+  
+  
+  .tenders {
+      position: absolute;
+    width: 35%;
+  /*   height: 10px; */
+    border-radius: 50%;
+  /*   padding: 10px; */
+    bottom: 200px;
+    left: 100px;
+    /*border: 10px solid;*/
+    border-color: red;
+  }
+  
+  
+  .loaded-potato {
+    position: absolute;
+    width: 30%;
+    border-radius: 30%;
+  /*   padding: 10px; */
+    right: 150px;
+    bottom: 200px;
+    /*border: 10px solid;*/
+    border-color: red;
+    
+    
+  }
+  
+  
+  .top-text {
+    position: absolute;
+    bottom: -750px;
+    color: white;
+    background-color: red;
+    padding: 20px;
+    left: 80px;
+    font-size: 25px;
+    border: 2px solid;
+    border-color: black;
+  }
+  
+  .top-text:hover {
+    background-color: crimson;
+  }
+  
+  .top-text a {
+    color: white;
+  }
+  
+  
+  .top-text2 {
+    position: absolute;
+    bottom: -750px;
+    color: white;
+    background-color: red;
+    padding: 20px;
+    left: 730px;
+    font-size: 25px;
+    border: 2px solid;
+    border-color: black;
+  }
+  
+  .top-text2:hover {
+    background-color: crimson;
+  }
+  
+  .top-text2 a {
+    color: white;
+  }
+  
+  
+  
+  /* CUSTOMER REVIEWS CUSTOMER REVIEWS      CUSTOMER REVIEWS CUSTOMER REVIEWS  */
+  
+  .custrev-container {
+    position: relative;
+  }
+  
+  
+  .custrevheader { 
+    position: absolute; 
+     color: white;
+    align-content: center;
+  /*   top: 10%; */
+    left: 0;
+    font-size: 30px;
+    background-color: red;
+    padding: 20px; 
+    top: 1550px;
+  
+  }
+  
+  #LOGO   {
+  /*   position: absolute; */
+    width: 100%;
+    padding: 0;
+  /*   border: 10px solid;  */
+  /*    top: 1600px;  */
+    
+  }
+  
+  .rev-1 {
+    position: absolute; 
+     color: white;
+    align-content: center;
+    left: 0;
+    font-size: 30px;
+    line-height: 30px;
+    /*padding: 20px; */
+    top: 150px;
+    background-color: red;
+    width: 115%;
+  }
+  
+  .rev-2 {
+    position: absolute; 
+    color: white;
+    align-content: flex-start;
+    left: 0;
+    font-size: 30px;
+    line-height: 30px;
+    /*padding: 20px; */
+    top: 1965px;
+    width: 40%;
+    background-color: red;
+  }
+  
+  
+  
+  /* .rev-container {
+    position: absolute;
+  }
+    
+  .review1 {
+    position: absolute;
+    bottom: 100px;
+  } */
+  
+  
+  
+  
+  /* FOOTER FOOTER FOOTER FOOTER      FOOTER FOOTER FOOTER FOOTER     FOOTER FOOTER FOOTER */
+    
+  .footer-container {
+    position: relative;
+    height: 230px;
+    background-color: red;
+    margin: 0;
+    /*padding: 10px ;*/
+    width: 100%;
+    text-align: center;
+    line-height: 50px;
+  }
+  
+  .footer-socials {
+    position: relative;
+  }
+  
+  .socialimg a img {
+    position: relative;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    /*padding: 10px;*/
+  
+  }
+  
+  
+  
+  
+  
+  

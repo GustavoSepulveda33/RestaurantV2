@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    padding: 0;
+    /*box-sizing: border-box;*/
+   }
+  
+  
+  html, body {
+    height: 100%;
+    width: 100%;
+  /*   font-family: DejaVu Sans Mono, monospace */
+  
+  }
+  
+  body {
+    font-family: DejaVu Sans Mono, monospace
+  }
+  
+  /* NAV NAV NAV NAV     NAV NAV NAV NAV     NAV NAV NAV NAV      NAV NAV NAV NAV     NAV NAV NAV NAV */
+  
+  .nav-container {
+    position: relative;
+    
+  }
+  
+  .nav {
+    position: relative;
+    background-color: red;
+  }
+  
+  .ulnav {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    height: 80px;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+  
+    
+  }
+  
+  .navitem a {
+    text-decoration: none;
+    font-size: 30px;
+    color: yellow;
+  
+  }
+  
+  /* Contact Us Body       Contact Us Body       Contact Us Body        Contact Us Body      Contact Us */
+  
+  
+  
+  .contact-container {
+    position: relative;
+    font-size: 32px;
+    background-image: url(loaded\ potato.jpg);
+  }
+  
+  .contact-header {
+    position: absolute;
+    padding: 20px;
+  }
+  
+  
+  .contact-form {
+    width: 100%;
+    height: 200px;
+  }
+  
+  .form-input {
+    width: 100%;
+  }
+  
+
+  
+  /* FOOTER FOOTER FOOTER FOOTER      FOOTER FOOTER FOOTER FOOTER     FOOTER FOOTER FOOTER */
+    
+  .footer-container {
+    position: relative;
+    height: 230px;
+    background-color: red;
+    margin: 0;
+    /*padding: 10px ;*/
+    width: 100%;
+    text-align: center;
+    line-height: 50px;
+  }
+  
+  .footer-socials {
+    position: relative;
+  }
+  
+  .socialimg a img {
+    position: relative;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    /*padding: 10px;*/
+  
+  }
+  

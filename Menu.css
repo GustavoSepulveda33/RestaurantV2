@@ -1,0 +1,299 @@
+body {
+    margin: 0;
+    padding: 0;
+    /*box-sizing: border-box;*/
+   }
+  
+  
+  html, body {
+    height: 100%;
+    width: 100%;
+  /*   font-family: DejaVu Sans Mono, monospace */
+  }
+  
+  body {
+    font-family: DejaVu Sans Mono, monospace
+  }
+  
+  
+  /*  NAV NAV NAV NAV     NAV NAV NAV NAV     NAV NAV NAV NAV      NAV NAV NAV NAV     NAV NAV NAV NAV */
+  
+  .nav-container {
+    position: relative;
+    
+  }
+  
+  .nav {
+    position: relative;
+    background-color: red;
+  }
+  
+  .ulnav {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    height: 80px;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+  
+    
+  }
+  
+  .navitem a {
+    text-decoration: none;
+    font-size: 30px;
+    color: yellow;
+  
+  }
+  
+  /* HEADER HEADER HEADER      HEADER HEADER HEADER      HEADER HEADER HEADER      HEADER HEADER HEADER */
+  
+  /*.Header-container {*/
+  
+  /*   height: 150px; */
+  /*}*/
+  
+  .head-text {
+    position: absolute;
+  /*   left: 175px; */
+    font-size: 250px;
+    width: 100%;
+    text-align: center;
+    background-image: url(BBQ\ Menu\ Img3.jpg);
+    color: red;
+  
+  }
+  
+  
+  
+  .head-sub {
+    position: absolute;
+    background-color: green;
+    top: 370px;
+  /*   left: 130px;  */
+    font-size: 40px;
+    text-align: center;
+    width: 100%;
+    /*padding: 40px;*/
+    margin: 0;
+    background-image: url(French\ Fries2.jpg);
+    color: red;
+    font-weight: 900;
+    
+  }
+  
+  
+  
+  
+  
+  /* MENU ITEMS MENU ITEMS MENU ITEMS       MENU ITEMS MENU ITEMS MENU ITEMS      MENU ITEMS MENU ITEMS */
+  
+  .entrees {
+    position: absolute;
+    background-color: red;
+    color: yellow;
+  /*   left: 450px; */
+    width: 100%;
+    top: 40px;
+    font-size: 50px;
+    /*padding: 20px;*/
+    text-align: center;
+  }
+  
+  .sides {
+    position: absolute;
+    background-color: red;
+    color: yellow;
+  /*   left: 450px; */
+    width: 100%;
+    bottom: 400px;
+    font-size: 50px;
+    /*padding: 20px;*/
+    text-align: center;
+  }
+  
+  
+  .menu-container {
+    position: relative;
+    top: 555px;
+    height: 2000px;
+    /*border: 30px solid;*/
+    background-color: white;
+    border-color: red;
+  }
+  
+  /* IMGAES ************* */
+  
+  .BBQ {
+    position: absolute;
+    height: 250px;
+    width: 250px;
+    top: 200px;
+    left: 200px;
+    background-size: cover;
+    /*border: 10px solid;*/
+    border-color: red;
+  }
+  
+  .Basket {
+    position: absolute;
+    height: 250px;
+    width:  250px;
+    left: 200px;
+    top: 500px;
+    background-size: cover;
+    /*border: 10px solid;*/
+    border-color: red;
+  }
+  
+  .Potato {
+    position: absolute;
+    height: 250px;
+    width:  250px;
+    left: 200px;
+    top: 800px;
+    background-size: cover;
+    /*border: 10px solid;*/
+    border-color: red;
+    
+  }
+  
+  .Tenders {
+    position: absolute;
+    height: 250px;
+    width:  250px;
+    left: 200px;
+    top: 1110px;
+    background-size: cover;
+    /*border: 10px solid;*/
+    border-color: red;
+    
+  }
+  
+  /* .Fries {
+    position: absolute;
+    height: 250px;
+    width:  250px;
+    left: 200px;
+    top: 1500px;
+    background-size: cover;
+    border: 10px solid;
+    border-color: red;
+    
+  } */
+  
+  
+  
+  
+  /* END OF IMAGES **************** */
+  
+  .menu-text {
+    position: absolute;
+    bottom: 1600px;
+    color: white;
+    background-color: red;
+    padding: 20px;
+    left: 600px;
+    right: 0;
+    font-size: 25px;
+  
+  }
+  
+  .menu-text2 {
+    position: absolute;
+    bottom: 1300px;
+    color: white;
+    background-color: red;
+    padding: 20px;
+    left: 600px;
+    right: 0;
+    font-size: 25px;
+  
+  }
+  
+  .menu-text3 {
+    position: absolute;
+    bottom: 1000px;
+    color: white;
+    background-color: red;
+    padding: 20px;
+    left: 600px;
+    right: 0;
+    font-size: 25px;
+  
+  }
+  
+  
+  .menu-text4 {
+    position: absolute;
+    bottom: 650px;
+    color: white;
+    background-color: red;
+    padding: 20px;
+    left: 600px;
+    right: 0;
+    font-size: 25px;
+  
+  }
+  
+  /* .menu-text5 {
+    position: absolute;
+    bottom: 650px;
+    color: white;
+    background-color: red;
+    padding: 20px;
+    left: 600px;
+    right: 0;
+    font-size: 25px;
+  
+    width: 100%;
+  } */
+  
+  
+  .sides-text {
+    position: absolute;
+    background-color: blue;
+    width: 100%;
+    text-align: center;
+    top: 2200px;
+    background-image: url(BBQ\ foot.jpg);
+    /*padding: 70px;*/
+    height: 405px;
+    color: yellow;
+    font-size: 70px;
+    font-weight: 700;
+  }
+  
+  
+  /* FOOTER FOOTER FOOTER FOOTER      FOOTER FOOTER FOOTER FOOTER     FOOTER FOOTER FOOTER */
+    
+  .footer-container {
+    position: relative;
+    height: 230px;
+    background-color: red;
+    margin: 0;
+    /*padding: 10px ;*/
+    width: 100%;
+    text-align: center;
+    line-height: 50px;
+  }
+  
+  .footer-socials {
+    position: relative;
+  }
+  
+  .socialimg a img {
+    position: relative;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    /*padding: 10px;*/
+  
+  }
+  
+  
+  
+  
+  
+  
