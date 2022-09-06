@@ -1,14 +1,14 @@
 body {
     margin: 0;
     padding: 0;
-    /*box-sizing: border-box;*/
-   }
+    box-sizing: border-box;
+  }
   
   
   html, body {
     height: 100%;
     width: 100%;
-  /*   font-family: DejaVu Sans Mono, monospace */
+    /* font-family: DejaVu Sans Mono, monospace */
   }
   
   body {
@@ -19,47 +19,59 @@ body {
   
   /* HERO HERO HERO     HERO HERO HERO    HERO HERO HERO   HERO HERO HERO     HERO HERO HERO */
   
-  .headercontainer {
+  /* .header {
     position: relative;
-    display: flex;
+    display: flex;   
     flex-direction: column;
-   
-  }
+    text-align: center;
+  } */
   
+
   .heroimg {
-    position: static;
+    position: absolute;
     width: 100%;
     filter: brightness(50%);
+  
   }
   
-  .main-text, .main-text-sub {
+  /* .main-text, .main-text-sub {
     position: absolute;
     padding: 10px;
     display: flex;
     flex-direction: column-reverse;
   
-  }
+  } */
   
+  
+
+
   .main-text {
-    font-size: 110px;
+    font-size: 80px;
     font-variant: small-caps;
     color: yellow;
-    position: absolute;
-    left: 1100%;
-    top: -2500%;
-    white-space: nowrap;
-  /*   font-family: DejaVu Sans Mono, monospace */
-    
+    position: relative;
+    display: flex; 
+    justify-content: center;
+    /* width: 100%; */
+    font-family: DejaVu Sans Mono
   }
-  
+      /* left: 1100%;
+    top: -2500%; */
+    /* white-space: nowrap; */
+  /*   font-family: DejaVu Sans Mono, monospace */
+
+
+
   .main-text-sub {
     font-size: 30px;
     font-variant: small-caps;
     color: white;
-    position: absolute;
-    left: 2000%;
-    top: -1900%;
-    white-space: nowrap;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    /* left: 2000%;
+    top: -1900%; */
+    /* white-space: nowrap; */
     
   }
   
@@ -69,31 +81,35 @@ body {
   
   /* NAV NAV NAV NAV     NAV NAV NAV NAV      NAV NAV NAV NAV     NAV NAV NAV NAV */
   
-  .nav-container {
+  /* .nav-container {
     position: relative;
-    
-  }
+  
+  } */
   
   .nav {
     position: relative;
     background-color: red;
+    /* height: 0; */
   }
   
   .ulnav {
     display: flex;
     flex-direction: row;
     list-style: none;
-    height: 80px;
-    justify-content: space-between;
+    height: 100px;
+    justify-content: space-around; 
     align-items: center;
     color: white;
+    /* padding: 20px; */
+
+
   
     
   }
   
   .navitem a {
     text-decoration: none;
-    font-size: 30px;
+    font-size: 40px;
     color: yellow;
   
   }
@@ -190,7 +206,7 @@ body {
   
   .top-text {
     position: absolute;
-    bottom: -750px;
+    bottom: -850px;
     color: white;
     background-color: red;
     padding: 20px;
@@ -211,11 +227,11 @@ body {
   
   .top-text2 {
     position: absolute;
-    bottom: -750px;
+    bottom: -850px;
     color: white;
     background-color: red;
     padding: 20px;
-    left: 730px;
+    left: 850px;
     font-size: 25px;
     border: 2px solid;
     border-color: black;
@@ -240,14 +256,14 @@ body {
   
   .custrevheader { 
     position: absolute; 
-     color: white;
+    color: white;
     align-content: center;
-  /*   top: 10%; */
+    /* top: 10%; */
     left: 0;
     font-size: 30px;
     background-color: red;
     padding: 20px; 
-    top: 1550px;
+    top: 1800px
   
   }
   
@@ -255,6 +271,7 @@ body {
   /*   position: absolute; */
     width: 100%;
     padding: 0;
+
   /*   border: 10px solid;  */
   /*    top: 1600px;  */
     
@@ -262,15 +279,15 @@ body {
   
   .rev-1 {
     position: absolute; 
-     color: white;
+    color: white;
     align-content: center;
     left: 0;
-    font-size: 30px;
+    font-size: 20px;
     line-height: 30px;
     /*padding: 20px; */
-    top: 150px;
+    top: 200px;
     background-color: red;
-    width: 115%;
+    width: 130%;
   }
   
   .rev-2 {
@@ -278,11 +295,11 @@ body {
     color: white;
     align-content: flex-start;
     left: 0;
-    font-size: 30px;
+    font-size: 20px;
     line-height: 30px;
     /*padding: 20px; */
-    top: 1965px;
-    width: 40%;
+    top: 450px;
+    width: 200;
     background-color: red;
   }
   

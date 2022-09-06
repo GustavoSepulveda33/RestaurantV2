@@ -20,29 +20,35 @@ body {
   
   .nav-container {
     position: relative;
-    
+    height: 100%;
+  
   }
   
   .nav {
     position: relative;
     background-color: red;
+    /* height: 0; */
+
   }
   
   .ulnav {
     display: flex;
     flex-direction: row;
     list-style: none;
-    height: 80px;
-    justify-content: space-between;
+    height: 100px;
+    justify-content: space-around; 
     align-items: center;
     color: white;
+    /* padding: 20px; */
+
+
   
     
   }
   
   .navitem a {
     text-decoration: none;
-    font-size: 30px;
+    font-size: 40px;
     color: yellow;
   
   }
@@ -54,7 +60,8 @@ body {
   .contact-container {
     position: relative;
     font-size: 32px;
-    background-image: url(loaded\ potato.jpg);
+    background-color: white;
+    text-align: center;
   }
   
   .contact-header {
@@ -96,7 +103,7 @@ body {
     height: 60px;
     width: 60px;
     border-radius: 50%;
-    /*padding: 10px;*/
+    padding: 10px;
   
   }
   

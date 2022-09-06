@@ -1,0 +1,180 @@
+
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html, body {
+    height: 100%;
+    width: 100%;
+    /* font-family: DejaVu Sans Mono, monospace */
+}
+
+body {
+    font-family: DejaVu Sans Mono, monospace
+}
+
+
+
+/* NAV NAV NAV NAV     NAV NAV NAV NAV      NAV NAV NAV NAV     NAV NAV NAV NAV */
+
+/* .nav-container {
+    position: relative;
+
+  } */
+
+
+.nav {
+    position: relative;
+    background-color: red;
+    /* height: 0; */
+}
+
+.ulnav {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    height: 100px;
+    justify-content: space-around; 
+    align-items: center;
+    color: white;
+    /* padding: 20px; */
+}
+
+.navitem a {
+    text-decoration: none;
+    font-size: 40px;
+    color: yellow;
+
+}
+
+/* HEADER HEADER HEADER HEADER */
+
+header {
+    text-align: center;
+}
+
+.menu-title {
+    color: red;
+    font-weight: bolder;
+    font-size: 15rem;
+    padding: 4rem;
+    margin: 0;
+    background-image: url(https://static01.nyt.com/images/2021/02/23/business/23chickensandwichwars/23chickensandwichwars-articleLarge.jpg?quality=75&auto=webp&disable=upscale);
+
+}
+
+.menu-subtitle {
+    border-style: double;
+    border-color: black;
+    border-width: 1rem;
+    color: rgb(0, 0, 0);
+    font-size: 4rem;
+    margin: 0;
+    background-image: url(https://images.slurrp.com/prod/articles/35vs18mcfqn.webp);
+    padding: 3%
+    
+}
+
+/* ENTREES ENTREES ENTREEES ENTREES */
+
+/* .entree-container {
+    text-align: center;
+} */
+
+.entree-title, .sides {
+    text-align: center;
+    font-size: 6rem;
+    color: yellow;
+    background-color: red;
+    padding: 5px;
+    margin: 0;
+    border-style: double;
+    border-color: black;
+    border-width: 1rem;
+
+}
+
+.entree-container {
+    text-align: center;
+}
+
+.entree-names {
+    font-size: 3rem;
+    color: yellow;
+    background-color: red;
+    margin: 0;
+    padding: 2rem;
+    border-style: double;
+    border-color: black;
+    border-width: 1rem;
+
+}
+
+.food-imgs {
+    width: 30%;
+    border-style: solid;
+    border-color: red;
+    border-width: 1rem;
+}
+
+a {
+    color: yellow;
+}
+
+.entree-description {
+    font-size: 2rem;
+    background-color: yellow;
+    margin: 0;
+    border-style: dashed;
+    border-color: black;
+    border-width: 1rem;
+    padding: 2rem;
+}
+
+.sides {
+    margin: 0;
+}
+
+
+.side-text {
+    font-size: 3rem;
+}
+
+
+  /* FOOTER FOOTER FOOTER FOOTER      FOOTER FOOTER FOOTER FOOTER     FOOTER FOOTER FOOTER */
+    
+.footer-container {
+    position: relative;
+    height: 230px;
+    background-color: red;
+    margin: 0;
+    /*padding: 10px ;*/
+    width: 100%;
+    text-align: center;
+    line-height: 50px;
+}
+
+.footer-socials {
+    position: relative;
+}
+
+.socialimg a img {
+    position: relative;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    /*padding: 10px;*/
+
+}
+
+
+
+
+
+
+
+
